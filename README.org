@@ -1,0 +1,23 @@
+Taking advantage of vim built-ins,
+also [[https://github.com/rktjmp/pact.nvim][pact]] and fennel
+
+Inspired by [[https://youtu.be/XA2WjJbmmoM][
+How to Do 90% of What Plugins Do (With Just Vim) - YouTube]]
+and
+[[https://youtu.be/OnUiHLYZgaA][Improving Vim Speed - YouTube]]
+#+begin_src sh
+  git clone --{remote,recurse,shallow}-submodules \
+    https://github.com/MaxCan-Code/nyoom.nvim
+  # https://askubuntu.com/a/962511 backup user's config
+  mv ~/.vim{,rc} ~/.vim-config.bak
+  cd nyoom.nvim
+  ln -sv . ~/.vim
+#+end_src
+Vim stuff I starred,
+might as well move them here
++ [[https://github.com/xaizek/vim-like-pile][xaizek/vim-like-pile]]
++ [[https://wiki.archlinux.org/title/List_of_applications/Documents#Vi-style_text_editors
+  ][List of applications/Documents - ArchWiki]]
++ [[https://github.com/egaga/openvim][egaga/openvim]]
++ [[https://github.com/rtorr/vim-cheat-sheet][rtorr/vim-cheat-sheet]]
++ [[https://github.com/kuator/Vim-memes][kuator/Vim-memes]]
